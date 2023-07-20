@@ -9,7 +9,16 @@
 
   ![image](https://github.com/BraianFG/crudConNode/assets/55467665/7ec29386-b9eb-40a6-8a09-1bc373d2bf57)
 
+## Funcionalidad ver producto por nombre (GET por nombre)
+* Ir a Thunder Client
+* Petición **GET**
+* ir a la barra de direcciones agregar la dirección establecida en la programación con Express JS /nombre / nombre del producto,o sea, http://localhost:3008/computacion/nombre/nombreDelProducto
 
+![image](https://github.com/BraianFG/crudConNode/assets/55467665/08852167-803e-417f-bdaa-10cc977fa6a7)
+
+![image](https://github.com/BraianFG/crudConNode/assets/55467665/120c7155-6220-4869-902b-3c25a575e504)
+
+  
 ## Funcionalidad de agregar (POST)
 * Ir a Thunder Client
 * Petición **POST**
