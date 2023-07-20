@@ -1,4 +1,5 @@
 # crudConNodeJS y MongoDB
+**Modifpicar el archivo .env con los datos de la base de datos**
 
 ## Librerías usadas 
 * Express JS
