@@ -1,5 +1,13 @@
 # crudConNodeJS y MongoDB
 
+## Librerías usadas 
+* Express JS
+* Nomdemon
+* Dotenv (para creacíon de arvichos .env)
+* Mongoosee para la conexión con MongoDB
+
+### Prueba realizada con Thuner Client
+
 ## Funcionalidad ver todos los productos (GET)
 * Ir a Thunder Client
 * Petición **GET**
