@@ -43,6 +43,10 @@
 * Una vez teniendo la respuesta copiar un artículo
 * Body
 * JSON y ahí pegar el producto copiado
+* Ir a la barra de busqueda para escribír la ruta id del producto , http://localhost:3008/computacion/id/#id
+ * Tiene que ir con  **PUT**
+   
+![image](https://github.com/BraianFG/crudConNode/assets/55467665/5d2f6466-fb50-49b0-9ea8-ccaa6850a4b3)
 
 ![image](https://github.com/BraianFG/crudConNode/assets/55467665/db9a5a7f-63df-436b-89af-0278bbbcb3be)
 
