@@ -48,6 +48,7 @@ router.get('/id/:id', async (req, res) => {
     }
 });
 
+
 router.get('/nombre/:nombre', async (req, res) => {
     try {
         const productName = req.params.nombre;
@@ -64,6 +65,12 @@ router.get('/nombre/:nombre', async (req, res) => {
             .toArray();
 
         await disconnectFromMongoDB();
+
+        if (!productos || productos.length === 0) {
+            res.status(404).send('Producto no encontrado');
+            return;
+        }
+
         res.send(productos);
     } catch (error) {
         console.error('Error en la ruta /nombre/:nombre:', error);
@@ -181,5 +188,7 @@ router.delete('/id/:id', async (req, res) => {
             client.close();
         });
 });
+
+
 
 module.exports = router;
